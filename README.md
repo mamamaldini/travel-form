@@ -89,16 +89,6 @@ python main.py
 
 ---
 
-## 📸 Screenshot
-
-Add a screenshot of your GUI here.
-
-```text
-screenshots/travel_form.png
-```
-
----
-
 ## 📚 Concepts Covered
 
 * Python GUI Programming
@@ -127,30 +117,11 @@ screenshots/travel_form.png
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork this repository.
-2. Create a feature branch.
-3. Commit your changes.
-4. Push the branch.
-5. Open a Pull Request.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
 ## 👨‍💻 Author
 
-**Your Name**
+mamamaldini
+* GitHub: https://github.com/mamamaldini
 
-* GitHub: https://github.com/your-username
-* Email: [your-email@example.com](mailto:your-email@example.com)
 
 ---
 
