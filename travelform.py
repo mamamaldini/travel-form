@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import *
 from datetime import datetime
 
 root = tk.Tk()
@@ -8,14 +8,7 @@ root.geometry("700x700")
 root.configure(bg="#EAF4FC")
 root.resizable(False, False)
 
-title = tk.Label(
-    root,
-    text="MamaMaldini Tour & Travels",
-    font=("Arial", 22, "bold"),
-    bg="#0B3D91",
-    fg="white",
-    pady=15
-)
+title = tk.Label(root, text="MamaMaldini Tour & Travels", font=("Arial", 22, "bold"), bg="#0B3D91", fg="white", pady=15)
 title.pack(fill="x")
 
 frame = tk.Frame(root, bg="white", padx=20, pady=20)
@@ -35,13 +28,7 @@ food = tk.IntVar()
 
 # Labels and Entries
 
-fields = [
-    ("Full Name", name),
-    ("Phone Number", phone),
-    ("Destination", destination),
-    ("Journey Date (DD/MM/YYYY)", date),
-    ("Passengers", passengers)
-]
+fields = [("Full Name", name), ("Phone Number", phone), ("Destination", destination), ("Journey Date (DD/MM/YYYY)", date), ("Passengers", passengers)]
 
 for i, (label, var) in enumerate(fields):
     tk.Label(frame, text=label, font=("Arial", 11), bg="white").grid(row=i, column=0, sticky="w", pady=8)
@@ -75,16 +62,10 @@ tk.Radiobutton(bus_frame,text="AC",variable=bus,value="AC",bg="white").pack(side
 tk.Radiobutton(bus_frame,text="Non-AC",variable=bus,value="Non-AC",bg="white").pack(side="left")
 
 # Food
-tk.Checkbutton(
-    frame,
-    text="Include Food Service",
-    variable=food,
-    bg="white"
-).grid(row=9,column=1,sticky="w",pady=10)
+tk.Checkbutton(frame, text="Include Food Service", variable=food, bg="white").grid(row=9,column=1,sticky="w",pady=10)
 
 # Submit Function
 def submit():
-
     if name.get()=="" or phone.get()=="" or destination.get()=="":
         messagebox.showerror("Error","Please fill all required fields.")
         return
@@ -126,24 +107,8 @@ def clear():
 button_frame=tk.Frame(root,bg="#EAF4FC")
 button_frame.pack()
 
-tk.Button(
-    button_frame,
-    text="Submit Booking",
-    bg="#28A745",
-    fg="white",
-    font=("Arial",11,"bold"),
-    command=submit,
-    width=18
-).grid(row=0,column=0,padx=10)
+tk.Button(button_frame, text="Submit Booking", bg="#28A745", fg="white", font=("Arial",11,"bold"), command=submit, width=18).grid(row=0,column=0,padx=10)
 
-tk.Button(
-    button_frame,
-    text="Clear Form",
-    bg="#DC3545",
-    fg="white",
-    font=("Arial",11,"bold"),
-    command=clear,
-    width=18
-).grid(row=0,column=1,padx=10)
+tk.Button(button_frame, text="Clear Form", bg="#DC3545", fg="white", font=("Arial",11,"bold"), command=clear, width=18).grid(row=0,column=1,padx=10)
 
 root.mainloop()
