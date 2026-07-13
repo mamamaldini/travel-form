@@ -14,7 +14,7 @@ This project is a desktop GUI application that lets users book tickets, choose t
 
 ##  Features
 
--Modern and clean GUI
+- Modern and clean GUI
 -Passenger information form
 -Gender selection
 -Multiple payment options
