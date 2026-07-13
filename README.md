@@ -43,13 +43,12 @@ This project is a desktop GUI application that lets users book tickets, choose t
 ```text
 MamaMaldini-Tour-Travels/
 │
-├── travelform.py
-├── Bookings.txt
-├── Screenshot.png
-├── booking.txt
-└── README.md
+├── README.md
+├── basic_travelform.py
+├── bookings.txt
+├── output.png
+└── travelform.py
 ```
-
 ---
 
 ## Booking Details:
@@ -103,17 +102,6 @@ Clear Form
 - Form Validation
 - Desktop Application Development
 - Using Variables and Functions
-
----
-
-## Future Improvements:
-
-- Ticket Generation
-- SQLite/MySQL Database
-- Admin Dashboard
-- Fare Calculator
-- Email Confirmation
-
 
 ---
 
