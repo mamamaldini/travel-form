@@ -1,4 +1,4 @@
-#  MamaMaldini Tour & Travels
+# MamaMaldini Tour & Travels
 
 > **A simple and beginner-friendly Travel Booking System built with Python & Tkinter.**
 
@@ -6,39 +6,39 @@ This project is a desktop GUI application that lets users book tickets, choose t
 
 ---
 
-##  Application Preview
+## Application Preview:
 
 ![travel-form](output.png)
 
 ---
 
-##  Features
+## Features:
 
 - Modern and clean GUI
--Passenger information form
--Gender selection
--Multiple payment options
--Seat preference selection
--AC / Non-AC travel selection
--Optional food service
--Automatic booking timestamp
--Saves bookings to `Bookings.txt`
--Input validation
--One-click form reset
+- Passenger information form
+- Gender selection
+- Multiple payment options
+- Seat preference selection
+- AC / Non-AC travel selection
+- Optional food service
+- Automatic booking timestamp
+- Saves bookings to `bookings.txt`
+- Input validation
+- One-click form reset
 
 ---
 
-##  Built With
+## Built With:
 
--Python 
--Tkinter
--ttk Widgets
--datetime
--File Handling
+- Python 
+- Tkinter
+- ttk Widgets
+- datetime
+- File Handling
 
 ---
 
-##  Project Structure
+## Project Structure:
 
 ```text
 MamaMaldini-Tour-Travels/
@@ -46,29 +46,30 @@ MamaMaldini-Tour-Travels/
 ├── travelform.py
 ├── Bookings.txt
 ├── Screenshot.png
+├── booking.txt
 └── README.md
 ```
 
 ---
 
-## 📝 Booking Details
+## Booking Details:
 
 The application records:
 
-- 👤 Full Name
-- 📱 Phone Number
-- 📍 Destination
-- 📅 Journey Date
-- 👥 Number of Passengers
-- 🚻 Gender
-- 💳 Payment Method
-- 💺 Seat Preference
-- 🚌 Bus Type
-- 🍱 Food Service
+- Full Name
+- Phone Number
+- Destination
+- Journey Date
+- Number of Passengers
+- Gender
+- Payment Method
+- Seat Preference
+- Bus Type
+- Food Service
 
 ---
 
-## 🔄 How It Works
+## How It Works:
 
 ```text
 Open Application
@@ -83,7 +84,7 @@ Click "Submit Booking"
 Input Validation
       │
       ▼
-Save Booking → Bookings.txt
+Save Booking → bookings.txt
       │
       ▼
 Show Success Message
@@ -94,7 +95,7 @@ Clear Form
 
 ---
 
-## Learning Outcome
+## Learning Outcome:
 
 - Tkinter GUI Development
 - Python File Handling
@@ -105,15 +106,14 @@ Clear Form
 
 ---
 
-## 🌟 Future Improvements
+## Future Improvements:
 
-- 🎟️ Ticket Generation
-- 🗄️ SQLite/MySQL Database
-- 👨‍💼 Admin Dashboard
-- 💰 Fare Calculator
-- 📧 Email Confirmation
-- 📱 QR Code Tickets
-- 🌙 Dark Mode
+- Ticket Generation
+- SQLite/MySQL Database
+- Admin Dashboard
+- Fare Calculator
+- Email Confirmation
+
 
 ---
 
